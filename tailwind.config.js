@@ -9,7 +9,6 @@ module.exports = {
       title: '110px',
       usm: '16px',
     },
-    
   },
   plugins: [],
 }

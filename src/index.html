@@ -14,15 +14,15 @@
     <title>Veg</title>
   </head>
   <body class="p-0 m-0 box-border">
-    <main class=" bg-[url(../images/main-image.png)] bg-cover   ">
-      <div class="hero   overflow-hidden ">
+    <main class="bg-[url(../images/main-image.png)] w-[100%] md:[910px]:w-screen bg-cover">
+      <div class="hero  ">
         <header>
           <nav class="flex justify-between px-[3.8%] pt-[2.3%]">
-            <div class="pagesContianer w-[21%] flex">
-              <ul class="flex w-full text-white/70 text-norm justify-between">
-                <li class="text-norm">Home</li>
-                <li class="text-norm">Order</li>
-                <li class="text-norm">Contact Us</li>
+            <div class="pagesContianer w-[27%] flex md:max-lg:hidden ">
+              <ul class="flex w-full gap-12  text-white/70 text-norm justify-between  ">
+                <li class="text-norm cursor-pointer">Home</li>
+                <li class="text-norm cursor-pointer">Order</li>
+                <li class="text-norm cursor-pointer  ">Contact Us</li>
               </ul>
             </div>
             <div class="logo">
@@ -42,9 +42,9 @@
                 />
               </svg>
             </div>
-            <div class="menuContianer w-[14%]">
+            <div class="menuContianer w-[20%]">
               <ul class="flex w-full text-white/70 text-norm justify-between">
-                <div>
+                <div class="cursor-pointer">
                   <svg
                     width="34"
                     height="34"
@@ -80,8 +80,8 @@
                     </defs>
                   </svg>
                 </div>
-                <li>Menu</li>
-                <div class="h-full flex flex-col gap-[8px]">
+                <li class="cursor-pointer">Menu</li>
+                <div class="h-full flex flex-col gap-[8px] cursor-pointer">
                   <svg
                     class="self-start"
                     width="14"
@@ -135,7 +135,7 @@
           </nav>
 
           <div
-            class="header__content text-white/75 flex flex-col justify-around ml-[3%]  w-[50%] min-h-[560px]"
+            class="header__content text-white/75 flex flex-col justify-around ml-[3%] w-[50%] min-h-[560px]  mt-[5%] md:max-lg:w-[60%] "
           >
             <h1 class="text-title">Healthy Veg Outlet</h1>
 
@@ -226,6 +226,132 @@
             </div>
           </div>
         </header>
+        <div
+          class="herosFooter bg-white/10 backdrop-blur-sm w-[100%] min-h-[238px] mt-[5%] rounded-t-[71px] text-white text-norm flex items-center flex-wrap md:max-[1049px]:justify-center "
+        >
+          <div
+            class="flex justify-evenly items-center flex-wrap h-[140px] w-[350px]    "
+          >
+            <img
+              src="../images/Sandwich.png"
+              alt=""
+              class="w-[139px] h-[139px]"
+            />
+
+            <div class="textBox">
+              <h5 class="font-medium" >Sandwich</h5>
+              <p class="text-usm">Rs. 129/-</p>
+              <button
+                class="text-usm w-[111px] h-[32px] bg-white/10 rounded-lg flex justify-evenly items-center"
+              >
+                Click Here
+                <svg
+                  width="7"
+                  height="4"
+                  viewBox="0 0 7 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.5 4L0.468911 0.249999L6.53109 0.25L3.5 4Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex justify-evenly items-center h-[140px] w-[350px]    "
+          >
+            <img
+              src="../images/pizza.png"
+              alt=""
+              class="w-[139px] h-[139px]"
+            />
+
+            <div class="textBox">
+              <h5 class="font-medium" >Pizza</h5>
+              <p class="text-usm">Rs. 129/-</p>
+              <button
+                class="text-usm w-[111px] h-[32px] bg-white/10 rounded-lg flex justify-evenly items-center"
+              >
+                Click Here
+                <svg
+                  width="7"
+                  height="4"
+                  viewBox="0 0 7 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.5 4L0.468911 0.249999L6.53109 0.25L3.5 4Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex justify-evenly items-center h-[140px] w-[350px]    "
+          >
+            <img
+              src="../images/Biryani.png"
+              alt=""
+              class="w-[139px] h-[139px]"
+            />
+
+            <div class="textBox">
+              <h5 class="font-medium" >Biryani</h5>
+              <button
+                class="text-usm w-[111px] h-[32px] bg-white/10 rounded-lg flex justify-evenly items-center"
+              >
+                Click Here
+                <svg
+                  width="7"
+                  height="4"
+                  viewBox="0 0 7 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.5 4L0.468911 0.249999L6.53109 0.25L3.5 4Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex justify-evenly items-center h-[140px] w-[350px]    "
+          >
+            <img
+              src="../images/Burger.png"
+              alt=""
+              class="w-[139px] h-[139px]"
+            />
+
+            <div class="textBox ">
+              <h5 class="font-medium" >Burger</h5>
+              <button
+                class="text-usm w-[111px] h-[32px] bg-white/10 rounded-lg flex justify-evenly items-center"
+              >
+                Click Here
+                <svg
+                  width="7"
+                  height="4"
+                  viewBox="0 0 7 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.5 4L0.468911 0.249999L6.53109 0.25L3.5 4Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
